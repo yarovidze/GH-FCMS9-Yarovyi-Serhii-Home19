@@ -1,0 +1,36 @@
+// Page: Header
+// -----------------------------------------------------------------------------
+.sticky-top {
+  height: 70px;
+}
+.nav-item {
+  border-bottom: 4px solid transparent;
+  padding: 0 5px;
+  font-family: $secondary-font;
+  text-transform: uppercase;
+  &:hover {
+    border-bottom: 4px solid $main-color;
+  }
+}
+
+.header-section {
+  position: relative;
+  & .content-header-section {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    position: absolute;
+    bottom: 100px;
+    max-width: 1000px;
+    & .content-description {
+      border-left: 2px solid $main-color;
+      padding-left: 20px;
+      margin-left: 20px;
+    }
+  }
+}
+
+
+
